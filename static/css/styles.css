@@ -1,0 +1,25 @@
+/* Reset some default styling */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the chart containers */
+.chart {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
